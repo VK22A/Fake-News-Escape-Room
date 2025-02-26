@@ -121,7 +121,7 @@
             formData.forEach((value, key) => { object[key] = value });
             var json = JSON.stringify(object);
 
-            fetch('YOUR_GOOGLE_APPS_SCRIPT_URL', {
+            fetch('https://script.google.com/macros/s/AKfycbz9NDnxLozXiYxUTLyhuZznF0N0GXpWarjwk6LGcM0rt0K_JU5_vjv8POGprIJvrT4/exec', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: json
